@@ -1,0 +1,19 @@
+{
+  "name": "oefening2",
+  "version": "0.0.1",
+  "description": "dit is oefening 2",
+  "main": "script.js",
+  "author": "bavo",
+  "scripts": {
+    "prod": "webpack",
+    "dev": "NODE_ENV=development webpack --watch"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
